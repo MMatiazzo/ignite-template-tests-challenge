@@ -36,3 +36,5 @@ export class GetStatementOperationUseCase {
       return statementOperation;
   }
 }
+
+export { IRequest as IRequestStatementOperation }

@@ -39,3 +39,5 @@ export class GetBalanceUseCase {
     return balance as IResponse;
   }
 }
+
+export { IRequest }

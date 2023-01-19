@@ -39,7 +39,7 @@ describe("Authenticate User Controller", () => {
                 password: "password"
             });
     
-            const authentication = await authenticateUserUseCase.execute({
+            await authenticateUserUseCase.execute({
                 email: "emailfalse@email.com",
                 password: "passwordfalse"
             });
